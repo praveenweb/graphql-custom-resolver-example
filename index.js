@@ -45,8 +45,7 @@ async function run() {
     schemas: [
       executableHelloSchema,
       executableHasuraSchema,
-    ],
-    resolvers: resolvers
+    ]
   });
 
   const app = new Express();

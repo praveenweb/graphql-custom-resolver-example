@@ -7,7 +7,7 @@ import { makeRemoteExecutableSchema, makeExecutableSchema, mergeSchemas, introsp
 import { HttpLink } from 'apollo-link-http';
 
 const HASURA_GRAPHQL_API_URL = process.env.HASURA_GRAPHQL_ENGINE_URL + '/v1alpha1/graphql';
-const PORT = process.env.PORT ? process.env.PORT : 9000;
+const PORT = process.env.PORT ? process.env.PORT : 8080;
 
 async function run() {
 

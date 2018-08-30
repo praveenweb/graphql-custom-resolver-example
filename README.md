@@ -1,6 +1,6 @@
 # GraphQL Custom Resolver Example
 
-A simple example of using a custom resolver with Hasura's GraphQL API.
+A simple example of using a custom resolver with Hasura's GraphQL API. We combine Hasura GraphQL and a simple hello world schema by Schema Stitching.
 
 Schema stitching is the process of creating a single GraphQL schema from multiple underlying GraphQL APIs.
 
